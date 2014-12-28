@@ -1,0 +1,13 @@
+c:\users\christian\documents\visual studio 2013\Projects\GalacticConflict\GalacticConflict\bin\Debug\GalacticConflict.exe.config
+C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\bin\Debug\GalacticConflict.exe
+C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\bin\Debug\GalacticConflict.pdb
+C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\obj\Debug\GalacticConflict.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\obj\Debug\GalacticConflict.Properties.Resources.resources
+C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\obj\Debug\GalacticConflict.csproj.GenerateResource.Cache
+C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\obj\Debug\GalacticConflict.exe
+C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\obj\Debug\GalacticConflict.pdb
+C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\obj\Debug\GalacticConflict.MainWindow.resources
+C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\bin\Debug\face.tif
+C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\bin\Debug\face_alpha.tif
+C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\bin\Debug\font.tga
+C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\bin\Debug\font.fnt

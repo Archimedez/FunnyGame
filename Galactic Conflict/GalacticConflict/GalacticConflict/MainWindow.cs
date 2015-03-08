@@ -29,8 +29,8 @@ namespace GalacticConflict {
             Ilut.ilutRenderer(Ilut.ILUT_OPENGL);
 
             _textureManager.LoadTexture("face", "face.tif");
-            _textureManager.LoadTexture("face_alpha", "face_alpha.tif");
             _textureManager.LoadTexture("font", "font.tga");
+            _textureManager.LoadTexture("face_alpha", "face_alpha.tif");
 
             _system.AddState("splash", new SplashScreenState(_system));
             _system.AddState("title_menu", new TitleMenuState());
@@ -42,8 +42,10 @@ namespace GalacticConflict {
             _system.AddState("Waveform", new WaveformGraphState());
             _system.AddState("SpecialEffect", new SpecialEffectsState(_textureManager));
             _system.AddState("circle_state", new CircleIntersectionState(_input));
+            _system.AddState("rectangle_state", new RectangleIntersectionState(_input));
+            _system.AddState("Tween_state", new TweenTestState(_textureManager));
 
-            _system.ChangeState("circle_state");
+            _system.ChangeState("Tween_state");
 
             if (_fullscreen) {
                 FormBorderStyle = FormBorderStyle.None;

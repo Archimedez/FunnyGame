@@ -17,6 +17,7 @@ namespace GalacticConflict {
         bool _fullscreen = false;
         StateSystem _system = new StateSystem();
         TextureManager _textureManager = new TextureManager();
+        Input _input = new Input();
 
         public MainWindow() {
             InitializeComponent();
@@ -40,8 +41,9 @@ namespace GalacticConflict {
             _system.AddState("fps", new FPSTestState(_textureManager));
             _system.AddState("Waveform", new WaveformGraphState());
             _system.AddState("SpecialEffect", new SpecialEffectsState(_textureManager));
+            _system.AddState("circle_state", new CircleIntersectionState(_input));
 
-            _system.ChangeState("SpecialEffect");
+            _system.ChangeState("circle_state");
 
             if (_fullscreen) {
                 FormBorderStyle = FormBorderStyle.None;
@@ -56,6 +58,7 @@ namespace GalacticConflict {
             _system.Update(elapsedTime);
             _system.Render();
             _openGlControl.Refresh();
+            UpdateInput();
         }
 
         protected override void OnClientSizeChanged(EventArgs e) {
@@ -72,6 +75,16 @@ namespace GalacticConflict {
             Gl.glOrtho(-halfWidth, halfWidth, -halfHeight, halfHeight, -100, 100);
             Gl.glMatrixMode(Gl.GL_MODELVIEW);
             Gl.glLoadIdentity();
+        }
+
+        private void UpdateInput() {
+            System.Drawing.Point mousePos = Cursor.Position;
+            mousePos = _openGlControl.PointToClient(mousePos);
+
+            Point adjustedMousePoint = new Point();
+            adjustedMousePoint.X = (float)mousePos.X - ((float)ClientSize.Width / 2);
+            adjustedMousePoint.Y = ((float)ClientSize.Height / 2) - (float)mousePos.Y;
+            _input.MousePosition = adjustedMousePoint;
         }
     }
 }

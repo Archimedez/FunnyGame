@@ -31,6 +31,7 @@ namespace GalacticConflict {
             _renderer.DrawSprite(_testSprite);
             _renderer.DrawSprite(_testSprite2);
             Gl.glFinish();
+            _renderer.Render();
         }
     }
 }

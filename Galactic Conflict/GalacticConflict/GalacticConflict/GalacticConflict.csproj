@@ -59,12 +59,15 @@
     <Compile Include="Batch.cs" />
     <Compile Include="CharacterData.cs" />
     <Compile Include="CharacterSprite.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="CircleIntersectionState.cs" />
     <Compile Include="DrawSpriteState.cs" />
     <Compile Include="FastLoop.cs" />
     <Compile Include="Font.cs" />
     <Compile Include="FontParser.cs" />
     <Compile Include="FPSTestState.cs" />
     <Compile Include="FramesPerSecond.cs" />
+    <Compile Include="Input.cs" />
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>

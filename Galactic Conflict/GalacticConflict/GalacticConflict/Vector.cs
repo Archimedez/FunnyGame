@@ -8,6 +8,8 @@ using System.Runtime.InteropServices;
 namespace GalacticConflict {
     [StructLayout(LayoutKind.Sequential)]
     public struct Vector {
+        public static Vector Zero = new Vector(0, 0, 0);
+
         public double X { get; set; }
         public double Y { get; set; }
         public double Z { get; set; }
@@ -90,5 +92,26 @@ namespace GalacticConflict {
                 return new Vector(0, 0, 0);
             }
         }
+
+        public double DotProduct(Vector v) {
+            return ((v.X * X) + (v.Y * Y) + (v.Z * Z));
+        }
+
+        public static double operator *(Vector v1, Vector v2) {
+            return v1.DotProduct(v2);
+        }
+
+        public Vector CrossProduct(Vector v) {
+            double nx = ((Y * v.Z) - (Z * v.Y));
+            double ny = ((Z * v.X) - (X * v.Z));
+            double nz = ((X * v.Y) - (Y * v.X));
+            return new Vector(nx, ny, nz);
+        }
+
+        public override string ToString() {
+            return string.Format("X:{0}, Y:{1}, Z:{2}", X, Y, Z);
+        }
+
+
     }
 }

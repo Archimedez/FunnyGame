@@ -11,3 +11,16 @@ C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\Galact
 C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\bin\Debug\face_alpha.tif
 C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\bin\Debug\font.tga
 C:\Users\Christian\Documents\Visual Studio 2013\Projects\GalacticConflict\GalacticConflict\bin\Debug\font.fnt
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\bin\Debug\GalacticConflict.exe.config
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\obj\Debug\GalacticConflict.exe
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\obj\Debug\GalacticConflict.pdb
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\obj\Debug\GalacticConflict.csprojResolveAssemblyReference.cache
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\obj\Debug\GalacticConflict.MainWindow.resources
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\obj\Debug\GalacticConflict.Properties.Resources.resources
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\obj\Debug\GalacticConflict.csproj.GenerateResource.Cache
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\bin\Debug\face.tif
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\bin\Debug\face_alpha.tif
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\bin\Debug\font.fnt
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\bin\Debug\font.tga
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\bin\Debug\GalacticConflict.exe
+C:\Users\Chrezz\Desktop\FunnyGame\Galactic Conflict\GalacticConflict\GalacticConflict\bin\Debug\GalacticConflict.pdb

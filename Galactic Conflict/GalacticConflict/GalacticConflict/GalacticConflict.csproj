@@ -75,6 +75,8 @@
       <DependentUpon>MainWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="IGameObject.cs" />
+    <Compile Include="Matrix.cs" />
+    <Compile Include="MatrixTestState.cs" />
     <Compile Include="PreciseTimer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

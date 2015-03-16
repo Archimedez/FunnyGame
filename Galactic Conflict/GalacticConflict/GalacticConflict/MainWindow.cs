@@ -32,6 +32,7 @@ namespace GalacticConflict {
             _textureManager.LoadTexture("font", "font.tga");
             _textureManager.LoadTexture("face_alpha", "face_alpha.tif");
 
+
             _system.AddState("splash", new SplashScreenState(_system));
             _system.AddState("title_menu", new TitleMenuState());
             _system.AddState("sprite_test", new DrawSpriteState(_textureManager));
@@ -44,8 +45,9 @@ namespace GalacticConflict {
             _system.AddState("circle_state", new CircleIntersectionState(_input));
             _system.AddState("rectangle_state", new RectangleIntersectionState(_input));
             _system.AddState("Tween_state", new TweenTestState(_textureManager));
+            _system.AddState("Matrix_state", new MatrixTestState(_textureManager));
 
-            _system.ChangeState("Tween_state");
+            _system.ChangeState("Matrix_state");
 
             if (_fullscreen) {
                 FormBorderStyle = FormBorderStyle.None;
